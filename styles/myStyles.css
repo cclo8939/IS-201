@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: blue;
+}     
+li { 
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+}
+a { 
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    font-weight: bold;
+    font-size: 32px;
+    text-decoration: underline;
+}
+a:visited {
+    color: blue;
+}
+.resumeListHeading {
+    font-weight: bold;
+    font-style: normal;
+}
+.underline{text-decoration: underline;}
+.bold{font-weight: bold;}
+
+.center{
+   text-align: center  
+}
+.imgResize1{
+    max-width:50%;
+    max-height:50%;
+}
+.imgResize2{
+    max-width:75%;
+    max-height:75%;
+}
+.label{
+    background-color: gray;
+    border:solid 5px lightblue;
+    color: white;
+    font-size: 30px;
+    text-align:center;
+    position:absolute;
+}
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 30px;
+    z-index: 2;
+    border-bottom: solid 1px #555555;
+}
+.body{
+    top:114px;
+    bottom:64px;
+    left:114px;
+    right:114px;
+}
+.footer{
+    bottom:75px;
+    height: 50px;
+    left:5px;
+    right:5px;
+    font-size: 25px;
+    color: #999999;
+    text-align:center;
+    position: fixed;
+}
+.background{
+    background-image: url('../images/background.jpeg');
+}
+.italics{
+    font-style:italic;
+}
+.bold{
+    font-weight:bold;
+}
+.underline{
+    text-decoration:underline;
+}
+.cursive{
+    font-family:cursive;
+}
+.smaller{
+    font-size: 100%;
+}
